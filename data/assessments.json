@@ -1,0 +1,22 @@
+[
+    {
+      "id": "AM-001",
+      "name": "Account Manager - One Sitting",
+      "type": "Sales Suite",
+      "job_level": ["Mid-Professional"],
+      "job_roles": ["Account Manager", "Account Executive", "Sales"],
+      "traits_measured": ["Persistence", "Sales Potential", "Customer Focus", "Sales Drive", "Confidence and Independence"],
+      "time_minutes": 49,
+      "adaptive": true
+    },
+    {
+      "id": "VERIFY-001",
+      "name": "Verify Numerical",
+      "type": "Cognitive",
+      "job_level": ["Entry", "Mid-Professional"],
+      "job_roles": ["Analyst", "Engineer", "Finance"],
+      "traits_measured": ["Numeracy", "Problem-Solving"],
+      "time_minutes": 25,
+      "adaptive": true
+    }
+  ]
