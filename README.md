@@ -1,82 +1,71 @@
-# SHL_RESEARCH
-SHL Assessment Recommendation Engine
-AI-Powered Talent Evaluation System
-
+🔍 SHL Assessment Recommendation Engine
+🤖 AI-Powered Talent Evaluation System
 This repository contains a sophisticated recommendation engine designed to analyze SHL assessment documents and match them to organizational hiring needs. The system combines natural language processing with structured assessment data to deliver intelligent recommendations.
 
-Core Components
-
+🧩 Core Components
 The solution is architectured across three modular layers:
 
-Data Layer
-Maintains a structured catalog of SHL assessments with detailed metadata including target roles, measured competencies, and administration requirements.
+📂 Data Layer
 
-Analysis Engine
-Processes PDF assessment documents to extract key information such as evaluation methodologies, scoring systems, and competency frameworks using advanced text parsing techniques.
+Maintains a structured catalog of SHL assessments
 
-Recommendation System
-Implements a rules-based matching algorithm that considers multiple dimensions including job level, required skills, and assessment characteristics.
+Includes detailed metadata (target roles, competencies, administration requirements)
 
-Key Features
+🔧 Analysis Engine
 
-Automated extraction of assessment specifications from PDF documents
+Processes PDFs to extract evaluation methodologies
 
-Competency-based matching between role requirements and assessment tools
+Identifies scoring systems and competency frameworks
 
-Configurable recommendation rules adaptable to different hiring scenarios
+🎯 Recommendation System
 
-Integrated question-answering for document analysis
+Rules-based matching algorithm
 
-Comprehensive reporting capabilities
+Considers job level, skills, and assessment characteristics
 
-Implementation Highlights
+✨ Key Features
+Feature	Description
+📄 PDF Extraction	Automated parsing of assessment specs
+🧠 Smart Matching	Competency-based role-assessment pairing
+⚙️ Configurable Rules	Adaptable to hiring scenarios
+❓ Q&A Integration	Document analysis through NLP
+📊 Reporting	Comprehensive output generation
+                                                                                                                                                                            🖥️ Local LLM processing via Ollama/Mistral
 
-The system employs a hybrid approach:
+🧩 Structured data matching
 
-Local language model processing via Ollama/Mistral for document analysis
+⚖️ Customizable weighting system
 
-Structured data matching for precise recommendations
+🎯 Use Cases
+👔 HR teams selecting assessments
 
-Customizable weighting system for different evaluation criteria
+👁️ Hiring managers evaluating candidates
 
-Typical Use Cases
+🎓 L&D professionals building frameworks
 
-HR teams selecting appropriate assessments for specific roles
+👤 Candidates preparing for tests
 
-Hiring managers evaluating candidate results
+💡 Value Proposition
+⏱️ 60-80% faster assessment selection
 
-L&D professionals designing evaluation frameworks
+📈 Data-driven hiring quality improvement
 
-Candidates preparing for upcoming assessments
+🔒 Complete data privacy with local processing
 
-Setup and Integration
+🛠️ Adaptable to org-specific needs
 
-The solution requires minimal dependencies and can be:
+🗺️ Roadmap
+➕ More assessment providers
 
-Deployed as a standalone analysis tool
+👥 Team evaluation features
 
-Integrated into existing HR systems
+📉 Advanced analytics dashboard
 
-Extended with custom assessment catalogs
+The modular architecture ensures easy maintenance and scalability for:
 
-Value Proposition
+🏢 Enterprise HR departments
 
-Reduces assessment selection time by 60-80%
+🔍 Specialized assessment consultancies
 
-Improves hiring quality through data-driven matching
 
-Maintains complete data privacy with local processing
 
-Adaptable to organizational-specific requirements
-
-Roadmap
-
-Planned enhancements include:
-
-Support for additional assessment providers
-
-Team-based evaluation features
-
-Advanced analytics dashboard
-
-The architecture's modular design ensures easy maintenance and scalability, making it suitable for both enterprise HR departments and specialized assessment consultancies.
