@@ -1,4 +1,8 @@
 🔍 SHL Assessment Recommendation Engine
+
+![image](https://github.com/user-attachments/assets/a63f10d1-3c50-4032-a7ab-82e731556769)
+
+
 🤖 AI-Powered Talent Evaluation System
 This repository contains a sophisticated recommendation engine designed to analyze SHL assessment documents and match them to organizational hiring needs. The system combines natural language processing with structured assessment data to deliver intelligent recommendations.
 
